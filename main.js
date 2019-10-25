@@ -20,7 +20,7 @@ function displayImage(imgSrc) {
   displayedImage.setAttribute('src', imgSrc);
 }
 
-/* Wiring up the Darken/Lighten button */
+/* Wiring up the Dark/Light button */
 
 btn.onclick = function() {
   var btnClass = btn.getAttribute('class');
